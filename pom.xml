@@ -63,13 +63,26 @@
             <version>${checkstyle.version}</version>
           </dependency>
         </dependencies>
-        <!-- Use Checkstyle configuration in the project -->
+        <!-- Configure overall Checkstyle behaviour -->
         <configuration>
           <configLocation>checkstyle.xml</configLocation>
-          <!-- TODO: Add config override that surpres JavaDoc-related checks -->
+          <suppressionsLocation>checkstyle-supressions.xml</suppressionsLocation>
+          <includeTestSourceDirectory>true</includeTestSourceDirectory>
+          <consoleOutput>true</consoleOutput>
+          <failsOnError>true</failsOnError>
+          <linkXRef>false</linkXRef>
         </configuration>
+        <!-- Configure Checkstyle to run during Maven build phase -->
+        <executions>
+          <execution>
+            <id>validate</id>
+            <phase>validate</phase>
+            <goals>
+              <goal>check</goal>
+            </goals>
+          </execution>
+        </executions>
       </plugin>
 		</plugins>
 	</build>
-
 </project>
