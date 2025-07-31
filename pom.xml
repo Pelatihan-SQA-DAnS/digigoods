@@ -69,8 +69,9 @@
           <suppressionsLocation>checkstyle-supressions.xml</suppressionsLocation>
           <includeTestSourceDirectory>true</includeTestSourceDirectory>
           <consoleOutput>true</consoleOutput>
-          <failsOnError>true</failsOnError>
-          <linkXRef>false</linkXRef>
+
+          <!-- We try to be strict here. Warning-level violation considered to be an error. -->
+          <violationSeverity>warning</violationSeverity>
         </configuration>
         <!-- Configure Checkstyle to run during Maven build phase -->
         <executions>
