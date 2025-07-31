@@ -6,8 +6,7 @@ Digigoods is the backend API for a web marketplace for purchasing digital goods.
 
 The API provides the following core services:
 
-- Users Service: Manages customer data and authentication. For this initial prototype, authentication is:w
- handled via a simple username and password.
+- Users Service: Manages customer data and authentication. For this initial prototype, authentication is handled via a simple username and password.
 - Products Service: Provides a catalogue of available digital goods, such as prepaid mobile credits, digital storefront points (e.g., Steam, Google Play), and subscription codes (e.g., Spotify, Netflix).
 - Shopping Cart Service: Manages the list of products a user intends to purchase. It interfaces with the Discount Service to calculate the final price.
 - Discount Service: Manages all coupon codes and discount logic. It computes applicable discounts based on the contents of a shopping cart and the coupon codes applied.
