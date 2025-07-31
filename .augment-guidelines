@@ -7,7 +7,7 @@
 
 ## Testing
 
-- Use JUnit 5 test framework. To run the unit test suite, run `mvn test`.
+- Use JUnit 5 test framework. To run the unit test suite, run `mvn test`. Make sure to run unit test suite before committing any code.
 - Follow the convention of Arrange-Act-Assert (AAA) for writing tests, including providing short one-liner comments that denote the sections.
 - Since we are using JUnit 5 as the test framework, please note the following when generating tests:
   - Name the test methods more verbosely. It is okay to write the test method name using Given_When_Then format.
