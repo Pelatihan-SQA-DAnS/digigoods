@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.example</groupId>
-	<artifactId>discount</artifactId>
+	<artifactId>digigoods</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>Discount Service</name>
-	<description>A Java, Spring Boot-based web service for computing discounts.</description>
+	<name>Digigoods API</name>
+	<description>Digigoods is the backend API for a web marketplace for purchasing digital goods.</description>
 	<url/>
 	<licenses>
 		<license/>
