@@ -1,13 +1,12 @@
-package com.example.discount;
+package com.example.digigoods;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class DiscountServiceApplication {
+public class DigigoodsApplication {
 
   public static void main(String[] args) {
-    SpringApplication.run(DiscountServiceApplication.class, args);
+    SpringApplication.run(DigigoodsApplication.class, args);
   }
-
 }
