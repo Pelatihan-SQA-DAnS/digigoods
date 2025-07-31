@@ -14,6 +14,7 @@
     To suppress certain violations please review suppression filters.
 
     Authors: Max Vetrenko, Mauryan Kansara, Ruslan Diachenko, Roman Ivanov.
+    Modified by Daya Adianto for Digigoods API project.
  -->
 
 <module name="Checker">
