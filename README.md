@@ -19,7 +19,4 @@ To maintain transparency and provide acknowledgements, we disclose the use of AI
 
 ## License
 
-This project is proprietary and confidential.
-It is not to be shared or distributed without explicit written permission from the authors and copyright holders.
-
-Copyright (c) 2025 Daya Adianto & PT. DAnS Multi Pro. All rights reserved.
+This project is licensed under the [MIT License](./LICENSE.md).
