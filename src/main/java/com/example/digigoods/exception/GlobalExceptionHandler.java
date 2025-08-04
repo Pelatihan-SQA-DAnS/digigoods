@@ -25,6 +25,18 @@ public class GlobalExceptionHandler {
   }
 
   /**
+   * Handles ProductNotFoundException.
+   *
+   * @param ex the exception
+   * @return error response
+   */
+  @ExceptionHandler(ProductNotFoundException.class)
+  public ResponseEntity<ErrorResponse> handleProductNotFoundException(ProductNotFoundException ex) {
+    ErrorResponse errorResponse = new ErrorResponse("PRODUCT_NOT_FOUND", ex.getMessage());
+    return new ResponseEntity<>(errorResponse, HttpStatus.NOT_FOUND);
+  }
+
+  /**
    * Handles validation errors.
    *
    * @param ex the exception
