@@ -1,15 +1,9 @@
 <?xml version="1.0"?>
 
 <!DOCTYPE suppressions PUBLIC
-     "-//Checkstyle//DTD SuppressionFilter Configuration 1.0//EN"
-     "https://checkstyle.org/dtds/suppressions_1_0.dtd">
+     "-//Checkstyle//DTD SuppressionFilter Configuration 1.2//EN"
+     "https://checkstyle.org/dtds/suppressions_1_2.dtd">
 
 <suppressions>
-    <!-- Suppress Javadoc checks for entire source directory -->
-    <suppress checks="MissingJavadocTypeCheck" files="src/main/java/.*\.java"/>
-    <suppress checks="MissingJavadocMethodCheck" files="src/main/java/.*\.java"/>
-
-    <!-- Suppress Javadoc checks for entire test source directory -->
-    <suppress checks="MissingJavadocTypeCheck" files="src/test/java/.*\.java"/>
-    <suppress checks="MissingJavadocMethodCheck" files="src/test/java/.*\.java"/>
+    <suppress message="Missing a Javadoc comment"/>
 </suppressions>
