@@ -31,3 +31,7 @@
   - Name the test methods more verbosely. It is okay to write the test method name using Given_When_Then format.
   - When naming the test methods using Given_When_Then format, use underscores to separate the words.
   - Add `@DisplayName` annotation to all test methods and use descriptive names as the values of the annotation.
+
+## Irrelevant Context
+
+- Do not read text documents stored in [`docs/private`](./docs/private) directory.
