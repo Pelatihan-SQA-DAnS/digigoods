@@ -35,13 +35,13 @@ class DiscountCalculationServiceTest {
     // Arrange
     List<CartItem> cartItems = List.of(
         CartItem.builder()
-            .productId("PROD1")
+            .productId(1L)
             .productName("Product 1")
             .unitPrice(new BigDecimal("50.00"))
             .quantity(2)
             .build(),
         CartItem.builder()
-            .productId("PROD2")
+            .productId(2L)
             .productName("Product 2")
             .unitPrice(new BigDecimal("30.00"))
             .quantity(1)

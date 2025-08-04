@@ -96,19 +96,19 @@ class DiscountServiceEndToEndTest {
     // Step 3: Create a shopping cart with multiple items
     List<CartItem> cartItems = List.of(
         CartItem.builder()
-            .productId("LAPTOP001")
+            .productId(1L)
             .productName("Gaming Laptop")
             .unitPrice(new BigDecimal("800.00"))
             .quantity(1)
             .build(),
         CartItem.builder()
-            .productId("MOUSE001")
+            .productId(2L)
             .productName("Wireless Mouse")
             .unitPrice(new BigDecimal("25.00"))
             .quantity(2)
             .build(),
         CartItem.builder()
-            .productId("KEYBOARD001")
+            .productId(3L)
             .productName("Mechanical Keyboard")
             .unitPrice(new BigDecimal("75.00"))
             .quantity(1)

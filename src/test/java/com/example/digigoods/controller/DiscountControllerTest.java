@@ -42,7 +42,7 @@ class DiscountControllerTest {
     // Arrange
     List<CartItem> cartItems = List.of(
         CartItem.builder()
-            .productId("PROD1")
+            .productId(1L)
             .productName("Product 1")
             .unitPrice(new BigDecimal("50.00"))
             .quantity(2)

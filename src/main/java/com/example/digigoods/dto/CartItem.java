@@ -6,7 +6,7 @@ import java.math.BigDecimal;
  * DTO representing an item in the shopping cart.
  */
 public class CartItem {
-  private String productId;
+  private Long productId;
   private String productName;
   private BigDecimal unitPrice;
   private Integer quantity;
@@ -25,11 +25,11 @@ public class CartItem {
     return new Builder();
   }
 
-  public String getProductId() {
+  public Long getProductId() {
     return productId;
   }
 
-  public void setProductId(String productId) {
+  public void setProductId(Long productId) {
     this.productId = productId;
   }
 
@@ -58,12 +58,12 @@ public class CartItem {
   }
 
   public static class Builder {
-    private String productId;
+    private Long productId;
     private String productName;
     private BigDecimal unitPrice;
     private Integer quantity;
 
-    public Builder productId(String productId) {
+    public Builder productId(Long productId) {
       this.productId = productId;
       return this;
     }
