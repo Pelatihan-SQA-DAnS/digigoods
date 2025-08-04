@@ -5,6 +5,24 @@
 - Refer to [`.editorconfig`](./.editorconfig) for general code styles such as indentation, line length, end-of-line symbols.
 - Run `mvn checkstyle:check` to check for violations of Java code style. If violations found, read the report and try to fix them.
 
+## Test-Driven Development (TDD)
+
+- Follow TDD practices in your development workflow. You need to develop the codebase iteratively using the Red-Green-Refactor cycle.
+- In the first TDD iteration for a new feature, write a failing unit test first. Use the Assertion First pattern. You may use stubs, mocks, and drivers to isolate the code under test. (This is the Red step).
+- In the second TDD iteration, write the code to pass the test. (This is the Green step).
+- In the third and subsequent TDD iterations, add more failing tests to cover positive, negative, and edge cases. Then, write the code to pass the tests. Continue the Red-Green cycle.
+- At some point, you need to analyze the code and see if there are design issues that may warrant refactoring. If so, you may need to refactor the code to improve its design without changing its external behavior. (This is the Refactor step).
+- Make sure the tests still pass before and after the refactoring.
+- Keep the existing tests.
+
+> Acknowledgements: the TDD prompts are based on the paper by Mock et. al. [1].
+>
+> [1] M. Mock, J. Melegati, and B. Russo, “Generative AI for Test Driven Development: Preliminary Results,” in Agile Processes in Software Engineering and Extreme Programming – Workshops, L. Marchesi, A. Goldman, M. I. Lunesu, A. Przybyłek, A. Aguiar, L. Morgan, X. Wang, and A. Pinna, Eds., Cham: Springer Nature Switzerland, 2025, pp. 24–32.
+
+## Maven
+
+- Prefer to use Maven wrapper (`mvnw`) instead of directly calling `mvn` command.
+
 ## Testing
 
 - Use JUnit 5 test framework. To run the unit test suite, run `mvn test`. Make sure to run unit test suite before committing any code.
