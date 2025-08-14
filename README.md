@@ -129,6 +129,10 @@ To remove all data (including database):
 docker-compose down -v
 ```
 
+## Hands-on Instructions
+
+See [`HANDS-ON.md`](./HANDS-ON.md).
+
 ## AI Assistance Disclosure
 
 [Gemini 2.5 Pro API](https://cloud.google.com/vertex-ai/generative-ai/docs/models/gemini/2-5-pro) was used to help brainstorm and refine the requirements, while [Augment Code](https://www.augmentcode.com/) served as an AI chat assistant and agent during development of the project. The requirements are documented in [`docs/PROMPT.md`](./docs/PROMPT.md).
