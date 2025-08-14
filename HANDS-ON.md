@@ -158,7 +158,7 @@ We do not need to explicitly include reference to the guidelines document in the
 
 ## Section 4: Automated Coverage Improvement with Agent Mode
 
-### 5.1 Introduction to Agent Mode
+### 4.1 Introduction to Agent Mode
 
 Augment Code's agent mode can autonomously analyze your codebase and generate tests to improve coverage.
 
@@ -169,7 +169,7 @@ Augment Code's agent mode can autonomously analyze your codebase and generate te
 - Integration with existing test patterns
 - Iterative improvement approach
 
-### 5.2 Using Agent Mode for Coverage Improvement
+### 4.2 Using Agent Mode for Coverage Improvement
 
 **Step 1**: Identify a specific file with low coverage
 
