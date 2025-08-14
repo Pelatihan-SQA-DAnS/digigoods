@@ -52,6 +52,12 @@ To ensure everything is working correctly, run the test suite:
 mvnw.cmd test
 ```
 
+You can check the coverage report at [`target/site/jacoco/index.html`](./target/site/jacoco/index.html).
+Open the file in browser to view the report.
+
+Alternatively, you can also use [Coverage Gutters](https://marketplace.visualstudio.com/items?itemName=ryanluker.vscode-coverage-gutters) extension to view the coverage report of a source code file directly in the editor.
+Open a source code file, then right click on the editor and select `Coverage Gutters: Display Coverage`. The covered lines will have green highlights and the uncovered lines will have red highlights.
+
 ### Step 4: Start the Application
 
 The easiest way to run the application is using Docker Compose, which will start both the PostgreSQL database and the application:
